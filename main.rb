@@ -18,3 +18,5 @@
 def caesar_cipher(plainText)
   plainText
 end 
+
+puts caesar_cipher(message)
