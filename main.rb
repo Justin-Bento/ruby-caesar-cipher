@@ -13,3 +13,7 @@
 # → [] Ensure the text and the message output both at the same time.
   # → [] Keep the text output the same casing.
  
+
+def caesar_cipher 
+  
+end 
