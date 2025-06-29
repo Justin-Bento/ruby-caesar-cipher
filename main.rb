@@ -13,6 +13,7 @@
 # → [] Ensure the text and the message output both at the same time.
   # → [] Keep the text output the same casing.
  
+  message = "JavaScript, Sucks"
 
 def caesar_cipher(message)
   message
