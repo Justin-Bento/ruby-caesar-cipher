@@ -16,7 +16,7 @@
   message = "JavaScript, Sucks"
 
 def caesar_cipher(plainText)
-  plainText
+  plainText.split("")
 end 
 
 puts caesar_cipher(message)
