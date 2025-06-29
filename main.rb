@@ -14,6 +14,6 @@
   # → [] Keep the text output the same casing.
  
 
-def caesar_cipher 
-  
+def caesar_cipher(message, shifter)
+
 end 
