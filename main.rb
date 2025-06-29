@@ -15,6 +15,6 @@
  
   message = "JavaScript, Sucks"
 
-def caesar_cipher(message)
-  message
+def caesar_cipher(plainText)
+  plainText
 end 
