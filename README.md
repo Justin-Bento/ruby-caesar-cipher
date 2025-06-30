@@ -2,8 +2,6 @@
 
 This repository contains the very first project in the first module of the Basic Ruby Projects curriculum. The project is based on Caesar's Cipher encryption, a classic technique in cryptography. It works by substituting each letter in a text file with another letter a fixed number of positions down the alphabet
 
-The goal of this project is to implement a Caesar cipher that takes in a string and a shift factor, and then outputs the modified string using a right shift.
-
 Here is an example of Caesar Cipher encryption in practice:
 
 ```ruby
@@ -18,6 +16,8 @@ Here is an example of Caesar Cipher encryption in practice:
 - **Date Started:** 2025-06-29
 
 ## Project Goals
+
+The goal of this project is to implement a Caesar cipher that takes in a string and a shift factor, and then outputs the modified string using a right shift.
 
 [ ] Create your own method called caesar_cipher.
 
