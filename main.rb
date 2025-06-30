@@ -10,10 +10,10 @@
 # → [] Apply two paramaters called message, and shifter.
   # → [] The first method 'message' returns a string outpt.
   # → [] The second method 'shifter' returns a number outpt.
-# → [] Ensure the text and the message output both at the same time.
+  # → [] Ensure the text and the message output both at the same time.
   # → [] Keep the text output the same casing.
  
-  message = "JavaScript, Sucks"
+message = "JavaScript, Sucks"
 
 def caesar_cipher(plain_text)
   plain_text.split("")
