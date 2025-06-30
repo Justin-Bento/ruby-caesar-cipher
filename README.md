@@ -1,4 +1,4 @@
-# Basic Ruby Projects
+# Project – Caesar Cipher
 
 This repository contains the very first project in the first module of the Basic Ruby Projects curriculum. The project is based on Caesar's Cipher encryption, a classic technique in cryptography. It works by substituting each letter in a text file with another letter a fixed number of positions down the alphabet
 
