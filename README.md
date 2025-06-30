@@ -12,17 +12,16 @@ This repository contains the very first project in the first module of the Basic
 
 The goal of this project is to implement a Caesar cipher that takes in a string and a shift factor, and then outputs the modified string using a right shift.
 
-[ ] Create your own method called caesar_cipher.
+## Features to Implement
 
-[ ] Apply two paramaters called message, and shifter.
+- [ ] Create your own method called caesar_cipher.
+- [ ] Apply two paramaters called message, and shifter.
+- [ ] The first method 'message' returns a string outpt.
+- [ ] The second method 'shifter' returns a number outpt.
+- [ ] Ensure the text and the message output both at the same time.
+- [ ] Keep the text output the same casing.
 
-[ ] The first method 'message' returns a string outpt.
-
-[ ] The second method 'shifter' returns a number outpt.
-
-[ ] Ensure the text and the message output both at the same time.
-
-[ ] Keep the text output the same casing.
+## Example Usage
 
 Here is an example of Caesar Cipher encryption in practice:
 
