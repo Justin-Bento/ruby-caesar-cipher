@@ -15,9 +15,9 @@ The goal of this project is to implement a Caesar cipher that takes in a string 
 ## Features to Implement
 
 - [ ] Create your own method called caesar_cipher.
-- [ ] Apply two paramaters called message, and shifter.
-- [ ] The first method 'message' returns a string outpt.
-- [ ] The second method 'shifter' returns a number outpt.
+- [ ] Apply two parameters called message, and shifter.
+- [ ] The first method 'message' returns a string output.
+- [ ] The second method 'shifter' returns a number output.
 - [ ] Ensure the text and the message output both at the same time.
 - [ ] Keep the text output the same casing.
 
