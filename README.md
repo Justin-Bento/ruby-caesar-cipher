@@ -29,3 +29,7 @@ Here is an example of Caesar Cipher encryption in practice:
   caesar_cipher("What a string!", 5)
   → "Bmfy f xywnsl!"
 ```
+
+## Acknowledgements
+
+Thank you Alexander Virga for writing this blog. [Ruby Simple String Encryption — Caesar Cipher Encoder](https://alexander-virga.medium.com/ruby-simple-string-encryption-shift-caesar-cipher-encoder-rot-9dedf06374d1)
