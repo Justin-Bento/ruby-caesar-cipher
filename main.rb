@@ -6,4 +6,8 @@ def caesar_cipher(plain_text, shift = 3)
   shifted.map {|char| char.chr.match(/\A[a-zA-Z'-]*\z/)}.join
 end 
 
-puts caesar_cipher(message)
+if message.empty? == true
+  puts "please, say something."
+else 
+  puts caesar_cipher(message)
+end
