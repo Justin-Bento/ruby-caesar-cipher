@@ -22,6 +22,7 @@ def caesar_cipher(plain_text, shift)
   shifted.map {|char| char.chr}.join
 end 
 
+# Add the validation logic:
 if message.empty? == true
   puts "please, say something."
 else 
