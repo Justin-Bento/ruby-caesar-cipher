@@ -1,4 +1,4 @@
-message = "JavaScript, Sucks"
+message = "What a string!"
 
 def caesar_cipher(plain_text, shift)
   ascii_code = plain_text.chars.map.with_index { |string| string.ord }
