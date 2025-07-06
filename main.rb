@@ -15,7 +15,10 @@ def caesar_cipher(plain_text, shift)
     else
       string.ord+reset
     end
+  else
+    string.ord
   end
+  
   }
 end 
 
