@@ -1,13 +1,30 @@
-message = "JavaScript, Sucks"
+message = "What a string!"
 
 def caesar_cipher(plain_text, shift)
-  ascii_code = plain_text.chars.map.with_index { |string| string.ord }
-  shifted = ascii_code.map { |char| char+shift }
-  shifted.map {|char| char.chr.match(/\A[a-zA-Z'-]*\z/)}.join
+  puts reset = shift % 26
+  shifted = plain_text.chars.map { |string| 
+  if string.ord >= 65 && string.ord <= 90 ## Uppercase Letters
+    if string.ord+reset > 90
+      string.ord+reset - 26
+    else
+      string.ord+reset
+    end
+  elsif string.ord >= 97 && string.ord <= 122
+    if string.ord+reset > 122
+      string.ord+reset - 26
+    else
+      string.ord+reset
+    end
+  else
+    string.ord
+  end
+  }
+  shifted.map {|char| char.chr}.join
 end 
 
+# Add the validation logic:
 if message.empty? == true
   puts "please, say something."
 else 
-  puts caesar_cipher(message, 3)
+  puts caesar_cipher(message, 5)
 end
