@@ -1,9 +1,7 @@
 message = "What a string!"
 
 def caesar_cipher(plain_text, shift)
-  ascii_code = plain_text.chars.map.with_index { |string| string.ord }
-  shifted = ascii_code.map { |char| char+shift }
-  shifted.map {|char| char.chr.match(/\A[a-zA-Z'-]*\z/)}.join
+  puts reset = shift % 26
 end 
 
 if message.empty? == true
