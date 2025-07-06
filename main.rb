@@ -9,6 +9,13 @@ def caesar_cipher(plain_text, shift)
     else
       string.ord+reset
     end
+  elsif string.ord >= 97 && string.ord <= 122
+    if string.ord+reset > 122
+      string.ord+reset - 26
+    else
+      string.ord+reset
+    end
+  end
   }
 end 
 
