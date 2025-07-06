@@ -18,8 +18,8 @@ def caesar_cipher(plain_text, shift)
   else
     string.ord
   end
-  
   }
+  shifted.map {|char| char.chr}.join
 end 
 
 if message.empty? == true
