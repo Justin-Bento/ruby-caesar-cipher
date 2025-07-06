@@ -3,13 +3,13 @@ message = "What a string!"
 def caesar_cipher(plain_text, shift)
   puts reset = shift % 26
   shifted = plain_text.chars.map { |string| 
-  if string.ord >= 65 && string.ord <= 90 ## Uppercase Letters
+  if string.ord.between?(65, 90) ## Uppercase Letters
     if string.ord+reset > 90
       string.ord+reset - 26
     else
       string.ord+reset
     end
-  elsif string.ord >= 97 && string.ord <= 122
+  elsif string.ord.between?(97, 122)
     if string.ord+reset > 122
       string.ord+reset - 26
     else
