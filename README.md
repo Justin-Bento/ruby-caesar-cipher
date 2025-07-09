@@ -7,6 +7,7 @@ This repository contains the very first project in the first module of the Basic
 - **Module:** Basic Ruby Projects
 - **Author:** Justin Bento
 - **Date Started:** 2025-06-29
+- **Date Completed:** 2025-07-05
 
 ## Project Goals
 
