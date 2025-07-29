@@ -1,3 +1,4 @@
+print "Enter Your Message: "
 message = gets.chomp
 
 def caesar_cipher(plain_text, shift)
