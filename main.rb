@@ -1,4 +1,4 @@
-message = "What a string!"
+message = gets.chomp
 
 def caesar_cipher(plain_text, shift)
   puts reset = shift % 26
